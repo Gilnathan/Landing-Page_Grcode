@@ -1,0 +1,66 @@
+.page{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.575);
+    overflow-x: hidden;
+}
+
+.main{
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.575);
+    overflow: hidden;
+    
+}
+.containerText{
+    width: 100%;
+    max-width: 1270px;
+
+}
+.title_main{
+    font-size: 5em;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.span{
+    color: orange;
+}
+.arteSite{
+    height: 500px;
+    width: auto; 
+}
+.bgvideo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    
+    z-index: -999;
+}
+.text_main{
+    font-size: 1em;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.video{
+    width: 110%;
+    height: 110%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -999;
+    filter: blur(2px)
+}
